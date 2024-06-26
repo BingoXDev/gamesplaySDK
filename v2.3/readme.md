@@ -30,15 +30,15 @@
 
 - app_key: 274941aa80278e186e4b5e19cd954457f5fb5556
 
-- 沙箱閘道介面 baseUri: https://gl-sandbox.bingox.vip/openapi
+- 沙箱閘道介面 baseUri: https://xx-xxxxxx.xxxxxx.xxx/openapi
 
-- 類比閘道介面 baseUri: https://gl-sandbox.bingox.vip/mock
+- 類比閘道介面 baseUri: https://xx-xxxxxx.xxxxxx.xxx/mock
 
 - 使用者協議和隱私政策
 
   連結：baseUri+'/Index/agreement'
 
-  如：https://gl-sandbox.bingox.vip/mock/Index/agreement
+  如：https://xx-xxxxxx.xxxxxx.xxx/mock/Index/agreement
 
 **說明：**
 
@@ -117,7 +117,7 @@ json
 
 ### getGameSetting 獲取遊戲設置資訊
 
-URL: `https://gl-sandbox.bingox.vip/mock/Player/getGameSetting`
+URL: `https://xx-xxxxxx.xxxxxx.xxx/mock/Player/getGameSetting`
 
 - 參數表
 
@@ -143,7 +143,7 @@ URL: `https://gl-sandbox.bingox.vip/mock/Player/getGameSetting`
 
 ### getCode 獲得郵箱驗證碼
 
-URL: `https://gl-sandbox.bingox.vip/mock/Player/getCode`
+URL: `https://xx-xxxxxx.xxxxxx.xxx/mock/Player/getCode`
 
 - 參數表
 
@@ -158,7 +158,7 @@ URL: `https://gl-sandbox.bingox.vip/mock/Player/getCode`
 
 ### login 登錄，未註冊時會自動註冊
 
-URL: `https://gl-sandbox.bingox.vip/mock/Player/login`
+URL: `https://xx-xxxxxx.xxxxxx.xxx/mock/Player/login`
 
 - 參數表
 
@@ -177,7 +177,7 @@ URL: `https://gl-sandbox.bingox.vip/mock/Player/login`
 
 ### loginWithPassword 密碼登錄
 
-URL: `https://gl-sandbox.bingox.vip/mock/Player/loginWithPassword`
+URL: `https://xx-xxxxxx.xxxxxx.xxx/mock/Player/loginWithPassword`
 
 - 參數表
 
@@ -196,7 +196,7 @@ URL: `https://gl-sandbox.bingox.vip/mock/Player/loginWithPassword`
 
 ### setPassword 設置密碼
 
-URL: `https://gl-sandbox.bingox.vip/mock/Player/setPassword`
+URL: `https://xx-xxxxxx.xxxxxx.xxx/mock/Player/setPassword`
 
 - 參數表
 
@@ -212,7 +212,7 @@ URL: `https://gl-sandbox.bingox.vip/mock/Player/setPassword`
 
 ### changeEmail 修改郵箱地址
 
-URL: `https://gl-sandbox.bingox.vip/mock/Player/changeEmail`
+URL: `https://xx-xxxxxx.xxxxxx.xxx/mock/Player/changeEmail`
 
 - 參數表
 
@@ -229,7 +229,7 @@ URL: `https://gl-sandbox.bingox.vip/mock/Player/changeEmail`
 
 ### getProfile  獲得使用者資訊
 
-URL: `https://gl-sandbox.bingox.vip/mock/Player/getProfile`
+URL: `https://xx-xxxxxx.xxxxxx.xxx/mock/Player/getProfile`
 
 - 參數表
 
@@ -254,7 +254,7 @@ URL: `https://gl-sandbox.bingox.vip/mock/Player/getProfile`
 
 ### (已廢除) saveBalance  保存遊戲資產
 
-URL: `https://gl-sandbox.bingox.vip/mock/Player/saveBalance`
+URL: `https://xx-xxxxxx.xxxxxx.xxx/mock/Player/saveBalance`
 
 - 參數表
 
@@ -271,7 +271,7 @@ URL: `https://gl-sandbox.bingox.vip/mock/Player/saveBalance`
 
 ### changeBalance  修改遊戲資產
 
-URL: `https://gl-sandbox.bingox.vip/mock/Player/changeBalance`
+URL: `https://xx-xxxxxx.xxxxxx.xxx/mock/Player/changeBalance`
 
 - 參數表
 
@@ -292,7 +292,7 @@ URL: `https://gl-sandbox.bingox.vip/mock/Player/changeBalance`
 
 ### getRechargeSetting 獲得充值地址和二維碼
 
-URL: `https://gl-sandbox.bingox.vip/mock/Player/getRechargeSetting`
+URL: `https://xx-xxxxxx.xxxxxx.xxx/mock/Player/getRechargeSetting`
 
 - 參數表
 
@@ -305,13 +305,13 @@ URL: `https://gl-sandbox.bingox.vip/mock/Player/getRechargeSetting`
 |參數名|類型|示例|說明|
 |--|--|--|--|
 |wallet_address|字串|TSF1nCwgsHKx68KSEZRx7Rj5cjKVJrmvfA|錢包地址|
-|qrcode|字串|https://gl-sandbox.bingox.vip/mock/Player/Utils/qrcode?text=TSF1nCwgsHKx68KSEZRx7Rj5cjKVJrmvfA|錢包二維碼圖片連結|
+|qrcode|字串|https://xx-xxxxxx.xxxxxx.xxx/mock/Player/Utils/qrcode?text=TSF1nCwgsHKx68KSEZRx7Rj5cjKVJrmvfA|錢包二維碼圖片連結|
 |remark|字串|本充值僅接收TRC20-BGGC通證。|充值說明文字|
 
 
 ### buyRubbies BGGC兌換紅寶石
 
-URL: `https://gl-sandbox.bingox.vip/mock/Player/buyRubbies`
+URL: `https://xx-xxxxxx.xxxxxx.xxx/mock/Player/buyRubbies`
 
 - 參數表
 
@@ -328,7 +328,7 @@ URL: `https://gl-sandbox.bingox.vip/mock/Player/buyRubbies`
 
 ### (用於單幣遊戲) sellRubbies 紅寶石兌換BGGC
 
-URL: `https://gl-sandbox.bingox.vip/mock/Player/sellRubbies`
+URL: `https://xx-xxxxxx.xxxxxx.xxx/mock/Player/sellRubbies`
 
 - 參數表
 
@@ -346,7 +346,7 @@ URL: `https://gl-sandbox.bingox.vip/mock/Player/sellRubbies`
 
 ### (用於雙幣遊戲) sellGold 金幣兌換BGGC
 
-URL: `https://gl-sandbox.bingox.vip/mock/Player/sellGold`
+URL: `https://xx-xxxxxx.xxxxxx.xxx/mock/Player/sellGold`
 
 - 參數表
 
@@ -364,7 +364,7 @@ URL: `https://gl-sandbox.bingox.vip/mock/Player/sellGold`
 
 ### getWithdrawSetting 獲得BGGC提現設置資訊，如每日可提幾筆和上下限等
 
-URL: `https://gl-sandbox.bingox.vip/mock/Player/getWithdrawSetting`
+URL: `https://xx-xxxxxx.xxxxxx.xxx/mock/Player/getWithdrawSetting`
 
 - 參數表
 
@@ -388,7 +388,7 @@ URL: `https://gl-sandbox.bingox.vip/mock/Player/getWithdrawSetting`
 
 ### submitWithdraw 提交BGGC提現
 
-URL: `https://gl-sandbox.bingox.vip/mock/Player/submitWithdraw`
+URL: `https://xx-xxxxxx.xxxxxx.xxx/mock/Player/submitWithdraw`
 
 - 參數表
 
@@ -406,7 +406,7 @@ URL: `https://gl-sandbox.bingox.vip/mock/Player/submitWithdraw`
 
 ### getAccountLog 獲取BGGC帳戶日誌
 
-URL: `https://gl-sandbox.bingox.vip/mock/Player/getAccountLog`
+URL: `https://xx-xxxxxx.xxxxxx.xxx/mock/Player/getAccountLog`
 
 - 參數表
 
@@ -432,7 +432,7 @@ URL: `https://gl-sandbox.bingox.vip/mock/Player/getAccountLog`
 
 ### getSendSetting 獲得BGGC內轉設置資訊，如每日可轉幾筆和上下限等
 
-URL: `https://gl-sandbox.bingox.vip/mock/Player/getSendSetting`
+URL: `https://xx-xxxxxx.xxxxxx.xxx/mock/Player/getSendSetting`
 
 - 參數表
 
@@ -456,7 +456,7 @@ URL: `https://gl-sandbox.bingox.vip/mock/Player/getSendSetting`
 ### sendRubbies 紅寶石內轉
 
 
-URL: `https://gl-sandbox.bingox.vip/mock/Player/sendRubbies`
+URL: `https://xx-xxxxxx.xxxxxx.xxx/mock/Player/sendRubbies`
 
 - 參數表
 
